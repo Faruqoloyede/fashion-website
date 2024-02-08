@@ -1,0 +1,63 @@
+nav {
+    background: url('../img/bac.jpg');
+}
+nav .navmenu li a {
+    color: #222222;
+    font-size: 20px;
+    padding: 15px;
+}
+
+nav .navmenu li a:hover {
+    color: #ffa627;
+}
+
+.hero {
+    background: url('../img/bac.jpg');
+}
+
+.text h2 {
+    font-size: 40px;
+    color: #ffa627;
+    text-transform: capitalize;
+}
+
+.text h1 {
+    font-size: 70px;
+    color: #222222;
+    font-weight: 600;
+    line-height: 80px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.text p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+.button {
+    gap: 15px;
+}
+
+.button a {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button .btn_secondary {
+    text-decoration: none;
+    color: #222222;
+}
+
+.button .btn_secondary:hover {
+    color: #ffa627;
+}
+
+@media (max-width: 680px) {
+    .text h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+}
